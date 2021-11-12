@@ -1,0 +1,4 @@
+dump: RewardsDismissBannerRequest(apiEndpoints: SnapshotTestingDemoTests.RewardsEndpointsStub(baseURL: test.mobile-api.woolworths.com.au, rewardsActivityPath: "/zeus/metis/v1/rewards/graphql"), bannerId: "snapshotID")
+query: mutation($id: ID!) {
+  rewardsBannerDismissed(id: $id)
+}

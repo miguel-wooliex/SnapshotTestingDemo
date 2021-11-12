@@ -1,0 +1,4 @@
+▿ ItemViewModel
+  - body: "When an assertion first runs, a snapshot is automatically recorded to disk and the test will fail, printing out the file path of any newly-recorded reference."
+  - image: <UIImage named(main: point_free_logo) {280, 280} renderingMode=automatic>
+  - title: "Different Snapshot Testing Demo"
