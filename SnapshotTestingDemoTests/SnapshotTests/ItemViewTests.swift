@@ -27,8 +27,8 @@ final class ItemViewTests: XCTestCase {
     }
 
     func testItemViewImage() {
-        view.bind(.makeDiffMock()) // makeDiffMock()
-        assertSnapshot(matching: view, as: .image(size: Constants.size), )
+        view.bind(.makeMock()) // makeDiffMock()
+        assertSnapshot(matching: view, as: .image(size: Constants.size))
     }
 
     func testItemViewRecursiveDescription() {
